@@ -14,7 +14,7 @@ let resulthumidity=document.querySelector('.humidity');
 let resultwindspeed=document.querySelector('.wind');
 
   
-  let pecture=['./sunset-silhouette-frames-city-skyline-nature-generated-by-ai_188544-25138.jpg','./wepik-export-20230714120237Aocx.jpeg','./wepik-export-20230714115623k2Ne.jpeg','./wepik-export-202307141224174wv4.jpeg']
+  let pecture=['./picture/sunset-silhouette-frames-city-skyline-nature-generated-by-ai_188544-25138.jpg','./picture/wepik-export-20230714120237Aocx.jpeg','./picture/wepik-export-20230714115623k2Ne.jpeg','./picture/wepik-export-202307141224174wv4.jpeg']
 setInterval(function(){
 let i=Math.floor(Math.random()*4);
 bodybc.style.backgroundImage='url('+pecture[i]+')';
